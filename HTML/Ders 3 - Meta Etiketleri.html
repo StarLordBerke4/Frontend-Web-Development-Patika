@@ -1,0 +1,27 @@
+<!--Meta etiketler:
+    Meta veriler bilgisayar bilimleri dünyasında genellikle verinin verisi anlamında kullanılır. Yani bir veriyle ilgili bilgiler meta bilgiler olarak tanımlanır. İşte HTML dökümanımızla ilgili verilerin olduğu etiketler de meta etiketleridir. Burada vereceğimiz bilgiler sitemizi arama motorlarına, sosyal medyaya ve diğer sitelere tanıtmak ve dökümanımızla ilgili bilgiler vermek için kullanılacak veriler olacak.-->
+
+    <!--Dünyada farklı farklı diller ve farklı alfabeler mevcut. Örnek olarak latin alfabesi, arap alfabesi, çin alfabesi, elf alfabesi vs vs. Ancak hepsinde farklı karakterler olduğu için browserin bu karakterli görüntüleyebilmek için doğru şekilde çözümlemesi gerekir. İşte HTML dökümanımızdaki bu karakterlerin çözümlenme biçimlerini belirttiğimiz <meta> etiketi özelliğimiz charset özelliğidir. Bizim latin alfabesi için verilen charset kodu UTF-8 dir.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meta Etketler</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="10;URL=İlk HTML Sayfam.html">
+<!--Yukarıdaki kodda sayfa yüklendikten 10 saniye sonra URL ile verdiğimiz değer olan İlk HTML Sayfam.html'ye yönlendirilecek.
+Burada kullandığımız diğer etiket de content etiketidir. Bu da meta olarak verdiğimiz bilgilerin içeriğini tanımlamamızı sağlar-->
+        <meta name="enCokGecenHarf" content="a">
+        <!--Son özelliğimiz de name özelliğimizdir. Bu da meta bilgi olarak vereceğimiz bilginin tanımlayıcısıdır diyebiliriz.Bu şekilde istediğimiz meta bilgiyi sayfamızın başlık etiketleri arasında kullanabiliriz.-->
+        <meta name="keywords" content="SiberMega,programlama,web,yazılım">
+        <!--Arama motorları bizi meta verilerinde verilen "keywords" lere göre sıralamaya alır-->
+        <meta name="description" content="Güncel Yazılım ve Tasarım Eğitimleri">
+        <!--:Ayrıca arama motorlarında sayfa başlığının altındaki açıklamalarda da yine bu meta verilerine öncelik verilir-->
+        <meta name="author" content="SiberMega">
+        <!--Bazı arama sonuçlarında yazar adı görürsünüz. Bu kısım da yine meta etiketinin marifetidir-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Web sitesinin farkli cihazlarda(akıllı telefon,tablet vb.) düzgün görünmesini sağlar-->
+    </head>
+    <body>
+
+    </body>
+</html>
