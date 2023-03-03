@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Listeler </title>
+    </head>
+    <body>
+        <h1> Listeler Örnekleri</h1>
+        <!--Listelerin 2 türü vardır.
+        1-Sıralı listeler <ol> etiketi kullanılarak yapılır.
+        2-Sırasız Listeler <ul> etiketi kullanılarak yapılır.-->
+            <h2> Diablo Oyun Serisi </h2>
+            <ol>
+                <li> Diablo 1</li>
+                <li> Diablo 2</li>
+                <li> Diablo 3</li>
+                <li> Diablo İmmortal</li>
+                <li> Diablo 4</li>
+            </ol>
+
+            <br>
+
+            <h2> Lord Of The Rings Oyun Serisi</h2>
+            <ul>
+                <li> Lord of the Rings Online</li>
+                <li> The Hobbit Game</li>
+                <li> War of the Ring</li>
+                <li> Battle For Middle Earth</li>
+            </ul>
+
+            <br>
+
+            <!--Peki iç içe liste nasıl kullanılır bunuda bir örnekle inceleyelim.-->
+            <h2> Blizzard Oyunları</h2>
+            <p> Ana oyun serilerine bir göz atalım. </p>
+            <ol>
+                <li> Diablo</li>
+                <li> Starcraft</li>
+                <li> Warcraft</li>
+                <ul>
+                    <li> World of Warcraft</li>
+                    <li> Call of Duty</li>
+                    <li> Heroes of Storm</li>
+                </ul>
+            </ol>
+            <!--Birazda biçim özelliklerini inceleyelim. Mesela sıralı listeler illa 1,2,3 şeklinde gitmek zorunda değil alfabe ilede sıralamasını yapabiliriz. Bunu ise "type" özelliği kullanılarak yaparız.-->
+            <br>
+
+        <p>En çok içmeyi sevdiğimiz içecekleri sıralayalım.</p>
+            <ol type="A">
+                <li> Çay </li>
+                <li> Kahve </li>
+                <li> Limonata </li>
+                <li> Su </li>
+            </ol>
+
+            <br>
+
+        <p> En çok tercih edilen spor türlerini sıralayalım.</p>
+            <ol type="I">
+                <li> Futbol </li>
+                <li> Voleybol </li>
+                <li> Basketbol </li>
+                <li> Buz Hokeyi</li>
+            </ol>
+
+            <br>
+
+            <!--Liste başındaki içi dolu daireyi değiştirmek için ise "disc, square, circle" değerlerini kullanabiliriz.-->
+            <p> Örnekte görülebileceği üzere iste ikonları kara haline geldi.</p>
+            <ul style="list-style-type:square">
+                <li>Telefon</li>
+                <li>Bilgisayar</li>
+                <li>Yazıcı</li>
+              </ul>
+
+              <br>
+              <!--Bir sırasız listeyi temizlemek veya liste ikonlarını (sitilini) değiştirmek için ise; "style" özelliği kullanılır.-->
+              <p> Örnekte görülebileceği üzere listenin ikonları yok oldu.</p>
+              <ul style="list-style-type:none">
+                <li>Çay</li>
+                <li>Türk Kahvesi</li>
+                <li>Süt</li>
+              </ul>
+
+              <br>
+
+            <p> Örnekte görebileceğiniz üzere sırasız liste ikonlarını değiştirerek 4 elementi sıraladık.</p>
+            <ul style="list-style-type: circle;">
+            <li> Ateş </li>
+            <li> Toprak </li>
+            <li> Hava </li>
+            <li> Su </li>
+            </ul>
+    </body>
+</html>
