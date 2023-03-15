@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- img-->
+    <!--img etiketi kullanıldığında "src" ve "alt" özelikleri ile gelir.
+    "src" özeliği resmin kaynağını belirtir. "alt" özelliği ise resmin açıklamasını ifade eder.-->
+
+    <!--Resimler ya intarnet siteleri üzerinden eklenebilir. Yada bir "images" dosyası oluşturularak bilgisayar üzerinden projeye dahil edilir.-->
+
+    <img src="https://picsum.photos/200/300" alt="Doğa Manzarası">
+
+    <!--Bu örnekte picsum sitesinden rastgele oluşturulmuş bir görsel ekledik. Alt satırda ise bu görselin boyutunu büyütelim.-->
+
+    <img src="https://picsum.photos/536/354" alt="Şehir Manzarası">
+
+    <!--İmg etiketi içinde width(genişlik) , height [yükseklik] özelikleri tanımlayarak görselin boyutunu değiştirebiliz.-->
+
+    <img src="https://github.com/JayantGoel001/JayantGoel001/raw/master/GIF/github.gif" width="500" height="700" alt="Github Logosu">
+
+    <!--sadece jpg uzantılı görseller kullanılmaz png, gif uzantılı görseller ilede çalışabiliriz.-->
+    <!--Peki şimdide bilgisayarımızda oluşturduğumuz bir klasör içinden görsel ekleyelim.-->
+
+    <img src="İmages/html-SiberMega.jpg" alt="HTML Logosu">
+    <img src="İmages/Screenshot_3.png" alt="Diablo İmmortal Cruisader" width="600" height="400" >
+
+    <!--Şayet bilgisyar üzerinden kullanacağımız görseller bir üst dizinde ise "../" ifadesi ile görsel eklenebilir-->
+    <img src="../../1669500465890.jpeg" alt="Bu şekilde bir üst dizine çıkarak görsel eklenebilir">
+    <br>
+    <br>
+    <img src="https://github.com/StarLordBerke4/StarLordBerke4/raw/main/footer.jpg" title="Programlama Dilleri" alt="title etiketi ile görsel için bir başlık tanımlayabiliriz.">
+
+    <!--"align" ile; Web sayfasında resmin gözükeceği pozisyonu belirlemede align özelliği kullanılır. Bu özelliğe verilebilecek değerler şunlardır: "left, right, center". Görselin sağa veya sola yaslı çıkmasını sağlar.-->
+
+    <br>
+
+    <img src="https://picsum.photos/536/354" alt="Çevre Yolu" align="left">
+
+    <br>
+
+    <!--"border" özeelliği ile çerçeve ve kalınlık kazandırılır görsele.-->
+
+    <img src="https://picsum.photos/536/354" alt="Gün Doğuşunu İzlemek" border="4">
+
+    <br>
+
+    <!--Görsele link vermek için imgtag'i a taginin içerisinde kullanılır. Yönlendirilmek istenen yerin URL'i a taginin href özelliğine yazılır. Görsel ise a taginin açıklama kısmına eklenir. 
+        href özelliği yönlendirme için kullanılır. style özelliği altında da görsellere boyut kazandırabiliriz.-->
+
+    <a href="https://github.com/StarLordBerke4">
+        <img src="https://github.com/abhisheknaiidu/abhisheknaiidu/raw/master/code.gif?raw=true" alt="Github sayfama git" style="width:42px;height:42px;">
+      </a>
+
+
+    
+</body>
+</html>
