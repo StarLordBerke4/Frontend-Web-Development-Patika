@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Semantik Etiketler</h1>
+    <img src="http://www.yusufsezer.com.tr/dosyalar/2016/10/HTML5-tasarim.png" alt="Semantik etiketleri öğrnelim" width="400" height="500">
+    <br>
+    <br>
+    <img src="https://www.semseo.com.tr/wp-content/uploads/2018/10/html5-2.png" alt="Detaylı tablo ile semantik etiketleri tanıyalım.">
+    <br>
+    <br>
+    <!--"header" elementi bir doküman veya bir <section> için bir başlık olduğunu belirtir. İçinde barındırdığı içeriği kapsayıcı olmalıdır. Bir dokümanda birden fazla kullanılabilir.
+        Aşağıdaki örnek, bir <article> için bir başlık içermektedir.-->
+            <header> 
+                <h1>Kodluyoruz Akademiyi Tanıyalım</h1>
+            </header>
+            <p>Her bireyin, özellikle kadınların, yükselen teknoloji sektöründe başarılı olması için eşit haklara sahip olması gerektiğine inanıyoruz.
+            Bu yüzden, Kodluyoruz Akademi gençlere dünya çapında kaliteli ve ücretsiz içerik, kaynak ve bootcamp sağlıyor!</p> 
+<br>
+    <!--"nav" elementi navigasyon bağlantıları büyük sayfalar için ortaya çıkarılmıştır. Fakat, sayfadaki tüm linkler bu element içinde olmak zorunda değildir.-->
+    <nav> Bootcamp CS50X Kodluyoruz Jr. Şirketler Hakkımızda </nav>
+    <br>
+    <!--"Section" elementi bir doküman içinde olan sadece bir kısmı belirtir.-->
+    <section>
+        <h1>CS50xKodluyoruz Challenge Başlıyor!</h1>
+        <p>CS50xKodluyoruz ödevlerine devam etmekte zorlanıyor musun? Bitirmek istediğin halde nasıl ilerleyeceğini bilmiyor musun?
+        O zaman CS50xKodluyoruz Challenge tam sana göre! Challenge ekibiyle hedefimiz: 4. haftaya kadar bütün ödevleri tamamlamak olacak!</p>
+        </section>
+        <section>
+        <h1>CS50x Nedir?</h1>
+        <p>CS50x (Computer Science 50), Harvard Üniversitesi Profesörü David J. Malan tarafından verilen efsanevi bilgisayar bilimlerine giriş kursu.
+        Her yıl milyonlarca kişi tarafından alınan bu kursu Türkçe’ye çevirsek ve Türkiye’nin her yerinden gençlere ulaştırsak nasıl olur?
+        Üstelik online ve ücretsiz olarak? Üstelik çalışma gruplarında her yaştan gencin beraber öğrenmesini destekleyerek?</p>
+        </section>
+        <br>
+        <br>
+        <!--"figure" elementi, İçeriğinde resim, gösterim, diyagram, kod listeleri vs. gibi nesnelerin olduğunu belirtir. Ana akış ile ilgili olsa da, konumu ana akıştan tamamen bağımsızdır. Çıkarılırsa dokümanın akışını engellemez.-->
+
+        <!--"figcaption" elementi, <figcaption> etiketi, <figure> elementinin belirttiği resme başlık koymaya yarar.-->
+        
+            <figcaption>
+                <p>A duck.</p>
+                <p><small>Photograph courtesy of News.</small></p>
+            </figcaption>
+            <br>
+            <figure>
+                <img src="https://cdn.sanity.io/images/9kdepi1d/production/1a22b9fada2411b7369592fd852613637834e866-5520x3680.jpg?auto=format" />
+            </figure>
+            <br>
+        <!-- aside elementi, <aside> elementi içerdiğinden farklı olarak daha başka bazı içerikleri tanımlar. İçeriği, üst içerik hakkında olmalıdır-->  
+            
+        <!-- "article" elementi, <article> elementi bir makale elementidir. Bir makale web sayfasının geri kalanından bağımsız olarak dağıtılabilmelidir.
+            Genelde bu elementin kullanabildiği yerler forum mesajları, blog gönderileri, haber metinleri, yorumlar gibi makale içeren metinlerdir.-->  
+            
+        <!-- "<footer>"" elementi bir doküman ya da kısım için alt bilgilerini belirtir. Bir<footer> genelde dokümanın yazarını, telif haklarını, kullanım gizliği, iletisim vs. gibi bilgileri içerir ve bir dokümanda bir kereden fazla kullanılabilir.-->    
+
+            <h1> Semantik Etiketlerinin Örnek Kullanımı </h1>
+            <br>
+            <nav>
+                <ul>
+                  <li>Lorem, ipsum dolor.</li>
+                  <li>Quisquam, adipisci corrupti!</li>
+                  <li>Tempora, et blanditiis.</li>
+                </ul>
+              </nav>
+              <hr />
+          
+              <main>
+                <aside>
+                  <h2>Left Bar</h2>
+                  <ul>
+                    <li>Lorem, ipsum.</li>
+                    <li>Ipsa, similique.</li>
+                    <li>Ullam, illum?</li>
+                    <li>Ducimus, officiis?</li>
+                  </ul>
+                </aside>
+          
+                <section>
+                  <article>
+                    <h1>Lorem.</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Aspernatur eius voluptate quia cupiditate.</p>
+                  </article>
+                  <article>
+                    <h1>Id?</h1>
+                    <p>Placeat quasi minus libero veniam.</p>
+                    <p>Amet reiciendis veniam deserunt voluptatem.</p>
+                  </article>
+                  <article>
+                    <h1>Expedita.</h1>
+                    <p>Iste minus harum quam dolore.</p>
+                    <p>Incidunt sit perspiciatis minima? Aliquid.</p>
+                  </article>
+                </section>
+              </main>
+          
+              <footer>
+                <h1>Footer</h1>
+                <p>Lorem, ipsum dolor.</p>
+              </footer>
+</body>
+</html>
