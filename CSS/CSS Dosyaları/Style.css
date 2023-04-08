@@ -12,3 +12,17 @@ p {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
 }
+
+p5 {
+
+    color: blueviolet;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+  /* CSS'te Açıkla Satırı Kullanımı */
+
+/* CSS'de Açıklama Satırı "/*" işaretleri kullanılarak yazılır. Bu satırlar ile projeler üzerinden uzun süre geçsede hangi satırda hangi kodu yazdığımızı hatırlarız.*/
+  
