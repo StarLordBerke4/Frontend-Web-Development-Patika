@@ -18,4 +18,4 @@ Bu bölümde patika.dev "Front End Web Developmet" patikasının CSS dersleri ka
 
 <br>
 
-<img src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/CSS/CSS%20%C3%96devleri/CSS%20%20%C3%96dev%201/%C4%B0leti%C5%9Fim.html" alt="CSS Ödevi1 İletişim" />
+<img src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/CSS/CSS%20%C3%96devleri/CSS%20%20%C3%96dev%201/CSS%20%C3%96devi%201%20%C4%B0leti%C5%9Fim.png" alt="CSS Ödevi1 İletişim" />
