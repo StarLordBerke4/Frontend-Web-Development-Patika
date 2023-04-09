@@ -1,0 +1,43 @@
+/* CSS Class ve ID Kullanımı*/
+
+/* Class Kullanımı => .class-adı {} şeklinde yazılır. Ör; .text-red {} */
+/* ID Kullanımı => #id-bilgisi {} şeklinde kullanılır. */
+
+.text-violet {
+     color: blueviolet;
+}
+
+.fs-small {
+    font-size: 18px;
+}
+
+.fs-medium {
+    font-size: 30px;
+}
+
+.fs-large {
+    font-size: 45px;
+}
+
+/* ID Kullanımı */
+
+#first-article {
+    color: red;
+    font-size: 65px;
+    text-align: center;
+}
+
+/* Bazı ek özelikler*/
+/* Birden fazla etiket css'te "," işareti ile ayrılarak özellik tanımlamak için kullanılabilir.*/
+
+h1, h2, h3, h4, h5, h6 {
+
+    color: #6495ED;
+    font-size: 30px;
+}
+
+/* Farklı renkler kullanmak için rgb renk kodlarınıda kullanabiliriz.*/
+
+p {
+    font-size: 20px;
+}
