@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS Dosyaları/CSS Class ve ID Kullanımı.css">
+</head>
+
+<!-- Emnet özelliğini kullanarak şöyle bir yapı oluşturalım. "(h1>lorem3^h2>lorem2^p*3>lorem4)*3" veya "article*3>h1>lorem3^h2>lorem2^p*3>lorem4" şeklinde de bir yapı kurabiliriz. Bu yapıda article yerine "div" de kullanılabilir.Ama article etiketinin kullanımı semantik web için daha mühimdir.-->
+<body>
+    <article>
+        <h1 id="first-article">Lorem, ipsum dolor.</h1>
+        <h2 class="text-violet">Lorem, ipsum.</h2>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Explicabo odit repudiandae facere.</p>
+        <p>Fuga consectetur fugit cupiditate?</p>
+    </article>
+    <article>
+        <h1>Quis, molestias labore.</h1>
+        <h2>Alias, rerum?</h2>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Illum doloremque excepturi aut.</p>
+        <p>Voluptatibus, cupiditate. Excepturi, error.</p>
+    </article>
+    <article">
+    <!-- Bir etiket içinde birden fazla class tanımlanarak kullanılabilir.-->
+        <h1 class="text-violet fs-large">Dignissimos, itaque maiores?</h1>
+        <h2>Porro, delectus.</h2>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Suscipit provident repudiandae porro.</p>
+        <p>Autem architecto aperiam magnam.</p>
+    </article>
+
+    <!-- Emnet'in bir özelliği var class kullanımını kolaylaştırmak için; "h1.text-violet" şeklinde kullanım ile etikete direkt class tanımlanarak kullanılabilir.-->
+</body>
+</html>
