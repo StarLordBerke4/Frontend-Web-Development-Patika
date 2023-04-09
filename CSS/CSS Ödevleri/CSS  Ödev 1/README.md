@@ -6,4 +6,4 @@ Bu bölümde patika.dev "Front End Web Developmet" patikasının CSS dersleri ka
 
 <p>Bu ödevde temel CSS etiketlerini kullanarak; görsel açıdan güzel gözüken bir web sayfası hazırlamaya çalıştım. (Müzik aletlerine ilgi duyan ve müziğin büyüsüne kapılmayı sevenler bu web sayfası sizin için! Not: Projede Css+ Html etiketleri kullanılmıştır.) </p>
 
-<img src="[https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/HTML/%C4%B0mages/%C3%96dev1_HTML.png](https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/CSS/CSS%20%C3%96devleri/CSS%20%20%C3%96dev%201/CSS%20%C3%96devi%201%20AnaSayfa.png)" alt="CSS Ödevi1 AnaSayfa" />
+<img src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/CSS/CSS%20%C3%96devleri/CSS%20%20%C3%96dev%201/CSS%20%C3%96devi%201%20AnaSayfa.png" alt="CSS Ödevi1 AnaSayfa" />
