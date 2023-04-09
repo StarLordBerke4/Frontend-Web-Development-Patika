@@ -10,7 +10,11 @@ Bu bölümde patika.dev "Front End Web Developmet" patikasının CSS dersleri ka
 
 <br>
 
-<img src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/CSS/CSS%20%C3%96devleri/CSS%20%20%C3%96dev%201/CSS%20%C3%96devi%201%20%C3%9Cr%C3%BCnlerimiz.png" alt="CSS Ödevi1 AnaSayfa" />
+<img src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/CSS/CSS%20%C3%96devleri/CSS%20%20%C3%96dev%201/CSS%20%C3%96devi%201%20%C3%9Cr%C3%BCnlerimiz.png" alt="CSS Ödevi1 Ürünlerimiz" />
+
+<br>
+
+<img src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/CSS/CSS%20%C3%96devleri/CSS%20%20%C3%96dev%201/CSS%20%C3%96devi%201%20Hakk%C4%B1m%C4%B1da.png" alt="CSS Ödevi1 Hakkımızda" />
 
 <br>
 
