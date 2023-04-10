@@ -1,0 +1,127 @@
+/* CSS Selectors Kullanımı */
+
+h1 {
+    color:rgb(43, 218, 72)
+}
+
+/* "*" Bu seçiciyi kullanarak tüm etiketlere CSS uygula demiş oluyoruz. Ancak tümüne uygulamak istemezsek etiket belirtebiliriz.*/
+
+h1 *{
+    padding: 0;
+    margin: 0;
+}
+
+/* Element Seçiciler => Bu seçiciler ile doğrudan HTML etiket isimlerini kullanarak CSS uygulayabiliriz.*/
+
+h2 {
+    color: white;
+    background-color: black;
+}
+
+/* Sınıf Seçiciler => Bu seçiciler ile sınıf atadığımız etiketlere CSS uygulayabiliriz. Sınıf ismine erişmek için sınıf isminin başına nokta "." ekliyoruz. */
+
+.turuncu {
+    color: orange;
+}
+
+/* ID Seçiciler => Bu seçiciler ile id atadığımız elementlere CSS uygulayabiliriz. Id' ler tek bir elemente ait olmalıdırlar. Id özelliğine erişmek id' nin başına # ekliyoruz.*/
+
+#lila {
+    background-color: lightblue;
+}
+
+/*Özellik Seçiciler => Bu seçiciler ile özelliğini belirttiğimiz elementlere CSS uygulayabiliriz. Özelliğin içi boş olsada element bundan etkilenecektir. Özelliklere erişmek için yapmamız gereken tek şey köşeli parantezler içinde özelliğin ismini [attribute] şeklinde yazıyoruz.*/
+
+[name]{
+    color: plum;
+  }
+
+  /*Burada sınıfı .btn ve niteliği(attribute) [disabled] olan butona CSS uyguladık.*/
+
+  .btn[disabled] {
+    color: orchid;
+  }
+
+
+  div[title="deneme"] {
+    background-color: orange;
+  }
+
+  /* Grup Seçiciler => Çoğunlukla etiketlere verilen CSS özellikleri benzer veya ortak olabilir. Bu gibi durumlarda seçicileri gruplayarak daha temiz CSS dosyaları oluşturabiliriz.*/
+
+  h3,h4,h5 {
+    color:red;
+  }
+
+  /**********************************************************************************************/
+
+  p.turuncu{
+    color:orange;
+  }
+
+  /* Sahte sınıflar => kullanarak HTML etiketlerine CSS uygulayabiliriz. Kullanımları "selector:pseudo class{}" şeklindedir. */
+
+  /* :link => Daha önce tarayıcıda açılmamış linke CSS uygular. Not: Etkisini görmek için tarayıcıya geçmişi temizlemek gerekebilir.*/
+
+  a#google:link {
+    color: red;
+  }
+
+  /*:hover => Seçici ile işaretlenen etiketin üzerine mouse ile gelindiğinde CSS uygalanır ve mouse üzerinde değilken etki kaybolur.*/
+
+  a.test:hover {
+    color: red;
+  }
+
+  /*:active => Mouse ile tıklandığında CSS uygulanır. Tıklama kaldırıldığında etki kaybolur. */
+
+  a:active {
+    position: relative;
+    top: 5px;
+  }
+/*Css de iki class yan yana belirterekte özelik tanımlayabiliriz.*/
+
+.color-blue.font-normal {
+  color: blue;
+  font-weight: normal;
+}
+
+/*:first-child => İlk child etikete CSS uygulanır. :last-child => Son child etikete CSS uygular.*/
+
+li:first-child {
+  color: green;
+}
+
+li:last-child {
+  color: aqua;
+}
+
+/* :nth-child() => özelliği ile paranter içinde belirttiğimiz liste basamağına özellik ekleyebiliriz. :nth-child(odd) ve :nth-child(even) özelikleride var bu özelikleride denemeyi unutmayalım.*/
+
+li:nth-child(2) {
+  background: salmon;
+}
+
+li:nth-child(odd) {
+  background: cyan;
+}
+
+li:nth-child(even) {
+  color: blueviolet;
+}
+
+/*::first-letter => Blok seviyesinde bir etiketteki ilk harfe CSS uygular. <span> blok seviyesinde bir etiket olmadığından bu pseudo class uygulanamaz. ::first-line => Blok seviyesinde bir etiketin ilk satırına CSS uygular. Not: Harf bazında değişiklik uygular.*/
+
+.selam::first-letter {
+  font-size: 20px;
+  color: orange;
+}
+
+/* ::before => Belirtilen etiketin önüne CSS uygular. ::after => Belirtilen etiketin sonuna CSS uygular. Kullanımı ::before ile aynıdır.*/
+
+.selam::before {
+  content: "selam";
+  color: orange;
+}
+
+/* "Content" özlliği html içinde belirtilen ifadeyi değiştirmek için kullanılır. */
