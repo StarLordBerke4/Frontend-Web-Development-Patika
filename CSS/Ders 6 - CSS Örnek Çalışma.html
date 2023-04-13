@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* "float" özelliği kutuları yan yana getirmek için kullanılır*/
+
+        /* margin-top: yukardan boşluk bırakmak için kullanılır.
+           margin-botton: aşağıdan boşluk bırakmak için kullanılır.
+           margin-left: soldan boşluk bırakmak için kullanılır.
+           margin-right: sağdan boşluk bırakmak için kullanılır.
+           */
+        /* border-radius: özelliği ile kutulara kafis ve şekil kazandırabiliriz. */ 
+
+        /* clear: CSS'de "clear" özelliği, hangi etiketin yaslanan etiketin yanında ve hangi tarafta yaslanabileceğini belirtir. Float özelliğinin etkisinden kurtulmak için clear özelliğini kullanırız. Float uygulanmış etiketten sonra gelen etiketleride etkiler bu etkiden kurtulmak için clear özelliği kullanılır.*/ 
+        
+        .box {
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            margin: 10px;
+            float: left;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .bg-aqua {
+            background-color: aqua
+        }
+
+        .bg-green {
+            background-color: greenyellow;
+        }
+
+        .bg-yellow {
+            background-color: yellow;
+        }
+
+        .left-bar {
+            width: 200px;
+            float: left;
+        }
+
+        .content {
+            width: 800px;
+            float: left;
+            margin: 50px auto 0;
+        }
+
+        .conteiner {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+
+            /* margin: 0 auto
+               margin: 0 auto 0 auto
+               
+               şeklinde de kullanım vardır. Saat ekseni yönünde konumlandırırır.*/
+        }
+
+        .card {
+            width: 20%;
+            float: left;
+            padding: 5%;
+            margin-right: 3%;
+            background-color: beige;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!--
+        Margin: Bir web sitesindeki kutular arasındaki mesafeyi ayarlamak için kullanılır.
+        Padding: Kutu içinde yer alan ögeler arasındaki mesafeyi ayarlamak için kullanılır. Kutu içinde ferahlık sağlamak için kullanılır.
+        Conteiner: Bu yapıyı sanal bir şekilde bir web sayfası içinde ögelerimizi ortalamak için kullanırız.
+    -->
+
+    <!--
+        width ve height
+        ===============
+width ve height özellikleri ile elementin, yani lego parçamızın boy ve genişliğini ayarlayabiliriz. Bu özellikleri biz yazmadığımız takdirde tarayıcı kendisi ayarlar ve yapacağımız web uygulamasında istenmeyen sonuçlara neden olur :)Bu özellikleri px, em veya % ile kullanabiliriz. % ile kullandığımız zaman elementimiz hangi elementin içindeyse ona göre oranlanır. Yani 800px boyunda bir <div> tag'inin içinde bulunan bir elementin boyunu 50% olarak ayarlarsanız elementin boyu 400px olur.
+
+Max-width özelliği ise bir elementin genişliğini sınırlamak istediğimizde kullanırız. Diyelim ki bir element tarayıcı ekranından fazla geniş veya uzun. Bu durumda scrollbar(kaydırma çubuğu) çıkar.
+
+***********************************************************
+
+Alıştırma-1: Width ve Height Kullanımı
+<style>
+   p{
+   width: 0;
+   height: 0;
+   }
+<style>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+*************************************************************
+Bu kodda width ve height'i 0 yaptım. Paragraf tuhaf bir şekilde görünecektir. Bu alıştırmada yapmanız gereken şey paragrafın düzgün görünmesi açısından width ve height'i istediğiniz şekilde kullanın. Burada width ve heigth'i görmeniz için % ve px in ikisini de kullanmanızı tavsiye ediyoruz..
+    -->
+
+    <div class="box bg-aqua">
+        Lorem ipsum dolor sit amet consectetur.
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Nulla exercitationem officia quasi!</p>
+        <p>Officiis ut illo non.</p>
+    </div>
+
+    <div class="box bg-green">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+
+    <div class="clearfix">
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+</div>
+
+<br>
+<br>
+
+<div class="conteiner bg-aqua">
+    <div class="left-bar bg-yellow">
+        <h1>Left Bar</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, culpa.
+    </div>
+    <div class="content bg-green">
+        <!--".card*3>h2>lorem3^p>lorem5" şeklinde bir yapı oluşturdum.-->
+        <div class="card">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card">
+            <h2>Eveniet, temporibus accusamus.</h2>
+            <p>Aut excepturi porro sapiente dolore.</p>
+        </div>
+        <div class="card">
+            <h2>Facilis, vero tenetur.</h2>
+            <p>Ad dolorum fugit aliquam eos?</p>
+        </div>
+        <h2>Content</h2>
+        Lorem ipsum dolor sit.
+    </div>
+</div>
+
+</body>
+</html>
