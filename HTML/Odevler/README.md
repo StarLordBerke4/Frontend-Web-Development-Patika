@@ -4,7 +4,7 @@ Bu bölümde patika.dev "Front End Web Developmet" patikasının HTML dersleri k
 ## HTML Ödevleri
 <h3 align="left">1-)İlk Web Sayfam | Ödev1</h3>
 
-<p>Bu ödevde temel html etiketlerini kullanark ilk web sayfamı oluşturdum. (Ödev kapsamında içerik bölümünde, kendim ile ilgili temel düzeyde bilgiler verdim.) </p>
+<p>Bu ödevde temel html etiketlerini kullanarak ilk web sayfamı oluşturdum. (Ödev kapsamında içerik bölümünde, kendim ile ilgili temel düzeyde bilgiler verdim.) </p>
 
 <img src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/HTML/%C4%B0mages/%C3%96dev1_HTML.png" alt="Image from fubiz.net" />
  
