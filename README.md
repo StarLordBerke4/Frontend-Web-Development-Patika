@@ -3,6 +3,8 @@ Bu repoyu "Başlangıç Seviye Frontend Web Development Patikası" ödevleri ve 
 
 <p>Front End Web Developer patikası, modern web geliştirme alanında sağlam bir temel oluşturmayı amaçlayan kapsamlı bir eğitim programıdır. Bu patikada, katılımcılar web uygulamaları ve siteleri oluşturmak için gereken temel teknolojileri ve en iyi uygulamaları öğrenmektedir. Patikanın içeriği, temel kavramlardan başlayarak, gelişmiş tekniklere kadar geniş bir yelpazeye yayılmaktadır.</p>
 
+<a href=""><img align="center" src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/Frontend%20Web%20Development%20Patikas%C4%B1.png" alt="FrontendPatika" height="1280" width="720"/></a>
+
 ### Öğrendiğim Konular:
 - <b>HTML (Hypertext Markup Language):</b> Web sayfalarının yapı taşlarını oluşturma ve içerik düzenleme için HTML'in temelleri.
 - <b>CSS (Cascading Style Sheets):</b> Web sayfalarının görünümünü ve düzenini yönetmek için CSS kullanımı; stil özelliklerinin uygulanması, responsive tasarım ve grid/flexbox sistemleri.
@@ -12,6 +14,8 @@ Bu repoyu "Başlangıç Seviye Frontend Web Development Patikası" ödevleri ve 
 - <b>Web Performansı ve SEO:</b>Web sitelerinin performansını artırmak için en iyi uygulamalar ve temel SEO teknikleri.
 - <b>Etkileşimli Tasarım ve Kullanıcı Deneyimi (UX):</b>Kullanıcı odaklı tasarım prensipleri, kullanıcı testi yöntemleri ve prototipleme araçları ile ilgili bilgiler.
 - <b>Proje Geliştirme Yetkinliği:</b>Gerçek projeler üzerinde çalışma fırsatı bulma, proje yönetimi teknikleri ve portföy oluşturma.
+
+### Program Hakkındaki Düşüncelerim:
 
 <p>Front End Web Developer patikası, benim için web geliştirme dünyasında sağlam bir temel oluşturma fırsatı sundu. Eğitim sürecinde, HTML, CSS ve JavaScript gibi temel teknolojilerin yanı sıra, modern kütüphane ve framework'ler hakkında kapsamlı bilgiler edindim. HTML ile web sayfalarının yapısını oluşturarak başladım; CSS ile görsel tasarımı ve stillendirmeyi öğrenirken, yaptığım çalışmalar sayesinde sayfaların nasıl daha kullanıcı dostu hale getirilebileceğini anladım. JavaScript ile ise sayfaların dinamikliğini artırarak, etkileşimli özellikler eklemeyi başardım.</p>
 
