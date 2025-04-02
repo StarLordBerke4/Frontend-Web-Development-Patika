@@ -27,5 +27,10 @@ Bu repoyu "Başlangıç Seviye Frontend Web Development Patikası" ödevleri ve 
 
 ### Sertifikam:
 Eğitim programını başarı ile tamamladığım için bu sertifikayı almaya hak kazandım.
-<br>
+
 <a href=""><img align="center" src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/Frontend%20Patikas%C4%B1%20Sertifikam.jpg" alt="FrontendPatikaSertifika" height="720" width="1280"/></a>
+
+- <b>Sertifika Adı:</b>Beginner Frontend Web Development Path
+- <b>Sertifika No:</b>f84f0994 
+- <b>Sertifika URL:</b><a>https://academy.patika.dev/certificates/f84f0994</a> 
+- <b>Linkedin Profil URL:</b><a>https://www.linkedin.com/in/starlordberke/</a> 
