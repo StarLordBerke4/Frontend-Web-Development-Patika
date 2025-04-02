@@ -3,7 +3,7 @@ Bu repoyu "Başlangıç Seviye Frontend Web Development Patikası" ödevleri ve 
 
 <p>Front End Web Developer patikası, modern web geliştirme alanında sağlam bir temel oluşturmayı amaçlayan kapsamlı bir eğitim programıdır. Bu patikada, katılımcılar web uygulamaları ve siteleri oluşturmak için gereken temel teknolojileri ve en iyi uygulamaları öğrenmektedir. Patikanın içeriği, temel kavramlardan başlayarak, gelişmiş tekniklere kadar geniş bir yelpazeye yayılmaktadır.</p>
 
-<a href=""><img align="center" src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/Frontend%20Web%20Development%20Patikas%C4%B1.png" alt="FrontendPatika" height="720" width="1100"/></a>
+<a href=""><img align="center" src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/Frontend%20Web%20Development%20Patikas%C4%B1.png" alt="FrontendPatika" width="1100"/></a>
 
 ### Öğrendiğim Konular:
 - <b>HTML (Hypertext Markup Language):</b> Web sayfalarının yapı taşlarını oluşturma ve içerik düzenleme için HTML'in temelleri.
@@ -19,7 +19,7 @@ Bu repoyu "Başlangıç Seviye Frontend Web Development Patikası" ödevleri ve 
 
 <p>Front End Web Developer patikası, benim için web geliştirme dünyasında sağlam bir temel oluşturma fırsatı sundu. Eğitim sürecinde, HTML, CSS ve JavaScript gibi temel teknolojilerin yanı sıra, modern kütüphane ve framework'ler hakkında kapsamlı bilgiler edindim. HTML ile web sayfalarının yapısını oluşturarak başladım; CSS ile görsel tasarımı ve stillendirmeyi öğrenirken, yaptığım çalışmalar sayesinde sayfaların nasıl daha kullanıcı dostu hale getirilebileceğini anladım. JavaScript ile ise sayfaların dinamikliğini artırarak, etkileşimli özellikler eklemeyi başardım.</p>
 
-<a href=""><img align="center" src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/Frontend%20Teknolojileri.jpg" alt="FrontendTeknolojisi" height="720" width="1100"/></a>
+<a href=""><img align="center" src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/Frontend%20Teknolojileri.jpg" alt="FrontendTeknolojisi" width="1100"/></a>
 
 <p>Patika çerçevesinde öğrendiklerim sadece kodlama ile sınırlı kalmadı; aynı zamanda proje yönetimi ve versiyon kontrol sistemleri hakkında da bilgi sahibi oldum. Git ve GitHub kullanarak ekip içinde iş birliği yapmanın temel prensiplerini öğrenmek, bana grup projelerinde gerekli olan iletişim ve iş birliği becerilerini kazandırdı. Ayrıca, web performansı ve SEO hakkında edindiğim bilgiler, yaptığım projelerin çevrimiçi görünürlüğünü artırmama yardımcı oldu.</p>
 
