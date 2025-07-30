@@ -35,4 +35,4 @@ Eğitim programını başarı ile tamamladığım için bu sertifikayı almaya h
 - <b>Sertifika URL:</b> <a>https://academy.patika.dev/certificates/f84f0994</a> 
 - <b>Linkedin Profil URL:</b> <a>https://www.linkedin.com/in/starlordberke/</a>
 
-<a href=""><img align="center" src="https://github.com/StarLordBerke4/-BM-Kodluyoruz/blob/main/%C4%B0mages/kodluyoruz_cover.jpg" alt="İBM" width="1100"/></a>
+<a href=""><img align="center" src="https://github.com/StarLordBerke4/Frontend-Web-Development-Patika/blob/main/G%C3%B6rseller/kodluyoruz_cover.jpg" alt="Kodluyoruz Banner" width="1100"/></a>
